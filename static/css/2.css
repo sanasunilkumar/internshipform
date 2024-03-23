@@ -1,0 +1,43 @@
+table {
+    border: 4px dashed black; 
+    border-collapse: collapse; 
+    width: 50%; 
+    margin: 20px auto; 
+}
+th {
+    text-align: center; 
+    background-color: lightgray; 
+}
+td {
+    border: 1px solid black; 
+    padding: 8px; 
+}
+h1{
+    color: black;
+    background-color: beige;
+}
+body{
+    background-color: palegoldenrod;
+}
+.B{
+    position: absolute;
+    top: 1602px;
+    left: 4%;
+    /*transform: translateX(50%);*/
+    width: 280px;
+    height: 250px;
+    border-radius: 100%; 
+    color: black;
+}
+/*
+.A{
+    position: absolute;
+    top: 1602px;
+    left: 4%;
+    /*transform: translateX(50%);
+    width: 280px;
+    height: 250px;
+    border-radius: 100%; 
+    color: black;
+}
+*/

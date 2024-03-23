@@ -1,0 +1,110 @@
+
+h1 {
+    color: #333; 
+   background-color: yellow; 
+}
+.circular-image {
+    position: absolute;
+    top: 60px;
+    right:-3%;
+    transform: translateX(-50%);
+    width: 280px;
+    height: 250px;
+    border-radius: 120%;
+}
+.A{
+    position: absolute;
+    top: 1300px;
+    left: 0%;
+    /*transform: translateX(50%);*/
+    width: 280px;
+    height: 250px;
+    border-radius: 100%;
+}
+.B{
+    position: absolute;
+    top: 1602px;
+    left: 4%;
+    /*transform: translateX(50%);*/
+    width: 280px;
+    height: 250px;
+    border-radius: 100%; 
+    color: black;
+}
+.C{
+    position: absolute;
+    top: 1400px;
+    right: 4%;
+    /*transform: translateX(50%);*/
+    width: 280px;
+    height: 250px;
+   /* border-radius: 100%; */
+    color: black;
+}
+.E{
+    position: absolute;
+    top: 1550px;
+    left: 4%;
+    /*transform: translateX(50%);*/
+    width: 280px;
+    height: 250px;
+    border-radius: 100%; 
+    color: black;
+}
+.G {
+    position: absolute;
+    top: 30px;
+    left: 20%;
+    transform: translateX(-50%);
+    width: 280px;
+    height: 280px; 
+    border-radius: 50%; 
+}
+
+h3{
+    color: yellow;
+    background-color: black;
+}
+.box{
+    width: 300px;
+    height: 300px;
+}
+.card{
+width:100%; min-height: 100vh;
+background-color: #f7f7f7; display: flex;
+justify-content: center; align-items: center; padding:0px 90px;
+}
+.D{
+    position: absolute;
+    bottom:-1400px;
+    left: 3%;
+    /*transform: translateX(50%);*/
+    width: 280px;
+    height: 250px;
+   /* border-radius: 100%; */
+    color: black;
+}
+.F{
+    background-color: #f6ffff;
+    height: max-content;
+   /* background-image: url(https://images.ctfassets.net/23aumh6u8s0i/5gieAxw4n3rxYsyjaAnhGm/aa67599b991ad67b3241bf730fc2a131/security_programming_hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;*/
+ 
+}
+body{
+       background-color: aqua;    
+}
+.corner-text{
+    color: black;
+}
+.I{
+    position: absolute;
+    top: 1130px;
+    left: 50%;
+    /*transform: translateX(50%);*/
+    width: 280px;
+    height: 250px;
+    border-radius: 100%; 
+    color: black;
+}

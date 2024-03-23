@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static "css/2.css" %}">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1><marquee>Registered Students Details</marquee></h1></center>
+    {% if emp %}
+       <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Year</th>
+                <th>Branch</th>
+                <th>Domain</th>
+                <th>Mode</th>
+            </tr>
+        </thead>
+            {% for i in emp %}
+            <tr>
+                <td>{{i.name}}</td>
+                <td>{{i.year}}</td>
+                <td>{{i.branch}}</td>
+                <td>{{i.domain}}</td>
+                <td>{{i.mode}}</td>
+            </tr>
+            {% endfor %}
+       </table>
+       <div class="B">
+        A Child Without Eductaion is Like a Bird Without Eductaion
+    </div>
+            {% else %}
+               <p>No Student Registered for the Internship</p>
+            {% endif %}
+</body>
+</html>
