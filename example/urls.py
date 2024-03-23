@@ -22,5 +22,5 @@ urlpatterns = [
     path('1/',views.Empview),
     path('2/',views.Endview),
     path('3/',views.Empout),
-    path('4/',views.Empmain),
+    path('',views.Empmain),
 ]
